@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Poppins', sans-serif, 'Roboto', sans-serif;
+}
+
+footer {
+    height: 270px;
+}
+
+.bg-white-700 {
+    background-color: #FEFEFE;
+}
+
+.bg-logo-verde {
+    background-color: #274E22;
+}
+
+.bg--cinza-amarronzado {
+    background-color: #EDEBE7
+}
+
+.bg--grey {
+    background-color: #E4D4B8;
+}
+
+/* marrom acizentado #EDEBE7 */
+/* #FEFADF; */
+
+/* cor logo: #274E22 */
+/* marrom: #633617 */
+/* &#9776; */
+
+/* gosto do tamanho da letra do nav com o browser a 90%. Acho que tem priorizar os titulos no texto  */

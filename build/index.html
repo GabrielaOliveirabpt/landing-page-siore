@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./img/siore-logo.png">
+  <title>SIORE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="min-h-screen bg-white">
+  <header class="bg-white-700 text-slate sticky top-0 z-10 shadow-md">
+    <section class="mx-auto flex max-w-5xl items-center justify-between p-8">
+      <a href="#hero">
+        <img class="w-1/3" src="./img/SioreLogo.png" alt="Logo Siore" />
+      </a>
+      <div>
+        <button id="mobile-open-button" class="items-center pr-4 text-3xl focus:outline-none sm:hidden">
+          <img class="w-8" src="./img/menu2.png" />
+        </button>
+
+        <nav class="hidden space-x-8 text-lg sm:block" aria-label="main">
+          <a href="#sobre-nos" class="hover:opacity-50">SOBRE NÓS</a>
+          <a href="#tratamentos" class="hover:opacity-50">TRATAMENTOS</a>
+          <a href="#tratamentos" class="hover:opacity-50">OUTRO</a>
+          <a href="#tratamentos" class="hover:opacity-50">BLOG</a>
+          <a href="#contato" class="hover:opacity-50">CONTATO</a>
+        </nav>
+      </div>
+    </section>
+  </header>
+  <main>
+    <!-- to test a section add: border border-blue-500 -->
+    <div class="bg-cover bg-center" style="background-image: url('./img/sala-espera.JPG')">
+      <section id="hero" class="mx-auto max-w-4xl scroll-mt-40 pb-56 pt-20">
+        <!-- <article class="bg-cover bg-center flex flex-col justify-around sm:w-1/2 mt-10 opacity-20 rounded-full p-12" style="background-image: url('./img/logoCirculo.png')"> -->
+        <article class="mt-10 flex flex-col justify-around rounded-full bg-white bg-opacity-50 p-12 sm:w-1/2">
+          <h2 class="max-w-xl p-12 pl-0 text-left text-4xl font-bold text-slate-900 sm:text-left sm:text-5xl">
+            Cuidando da sua
+            <span class="text-indigo-700">saúde</span>
+            com maestria
+          </h2>
+
+          <div
+            class="max-w-xs rounded-md bg-green-300 p-3 text-center text-xl font-bold shadow-2xl shadow-lime-50 hover:bg-green-200">
+            AGENDE UMA CONSULTA
+          </div>
+        </article>
+        <!-- <img class="w-1/2" src="./img/logoCirculo.png" alt="Logo grande"> -->
+      </section>
+    </div>
+
+    <div class="bg-white pb-20">
+      <section id="sobre-nos" class="mx-auto max-w-4xl scroll-mt-20 p-6 pt-20">
+        <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 sm:text-4xl">
+          Sobre nós
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur.
+        </p>
+        <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
+          <li class="flex w-2/3 flex-col items-center bg-white py-6 px-2 shadow-xl sm:w-5/6">
+            <img src="./img/lucas.png" alt="Lucas" class="mb-6 w-1/2 rounded-full" />
+            <h3 class="text-center text-3xl text-slate-900">
+              Lucas
+            </h3>
+            <p class="mt-2 text-center text-xl text-slate-500 sm:block">
+              Fisioterapeuta
+            </p>
+            <p class="mt-4 pl-4 text-left text-sm text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+            <p class="mt-2 pl-4 text-left text-sm text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </li>
+          <li class="flex w-2/3 flex-col items-center bg-white py-6 px-2 shadow-xl sm:w-5/6">
+            <img src="./img/thamiris.png" alt="Thamiris" class="mb-6 w-1/2 rounded-full" />
+            <h3 class="text-center text-3xl text-slate-900">
+              Thamiris
+            </h3>
+            <p class="mt-2 text-center text-xl text-slate-500 sm:block">
+              Administradora
+            </p>
+            <p class="mt-4 pl-4 text-left text-sm text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+            <p class="mt-2 pl-4 text-left text-sm text-slate-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="bg--cinza-amarronzado pb-20">
+      <section id="tratamentos" class="mx-auto max-w-4xl scroll-mt-20 p-6 pt-20">
+        <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 sm:text-5xl">
+          Tratamentos
+        </h2>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+    </div>
+
+    <div class="bg-white pb-20">
+      <section id="contato" class="mx-auto max-w-4xl scroll-mt-20 p-6 pt-20">
+        <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 sm:text-4xl">
+          Fale conosco
+        </h2>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.
+        </p>
+      </section>
+    </div>
+    <footer class="bg-logo-verde p-10">
+      <section class="mx-auto max-w-4xl">
+        <p class="text-left text-white">CLÍNICA SIORE</p>
+        <p class="pt-10 text-left text-white">
+          Rua Grécia, 100 - Jardim das Nações
+        </p>
+        <p class="text-left text-white">Taubaté - São Paulo</p>
+        <p class="text-left text-white">(12) 99250-1741</p>
+        <p class="text-left text-white">(12) 3413-2914</p>
+      </section>
+    </footer>
+  </main>
+</body>
+
+</html>

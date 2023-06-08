@@ -13,4 +13,4 @@ to toggle the classes formatting, install this plug-in "Formatting Toggle" and c
 
 The website was also deployed using github pages on: https://gabrielaoliveirabpt.github.io/landing-page-siore/build
 
-![alt text](./img//sioreResponsive.png)
+![alt text](build/img//sioreResponsive.png)
